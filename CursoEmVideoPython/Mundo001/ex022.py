@@ -1,0 +1,10 @@
+nome = input('Digite seu nome: ')
+nomeMa = nome.upper()
+nomeMi = nome.lower()
+nomeNoSpace = nome.replace(' ', '')
+nomeSplit = nome.split()
+print('Nome Maiusculo: {}'.format(nomeMa))
+print('Nome Minusculo: {}'.format(nomeMi))
+print('Nome sem espaco: {}, quantidade de letras: {}'.format(nomeNoSpace, len(nomeNoSpace)))
+print('Nome splitado: {}, primero nome: {}, letras primeiro nome {}'
+      .format(nomeSplit, nomeSplit[0], len(nomeSplit[0])))
