@@ -1,0 +1,5 @@
+n = int(input("Digite um numero inteiro: "))
+binario = bin(n)
+octal = oct(n)
+hexa = hex(n)
+print("Binario: {}\nOctal: {}\nHexadecimal:{}".format(binario, octal, hexa))
